@@ -334,6 +334,13 @@ The bootloader code is really simple:
 request.data
 web_load.data
 ```
+## Source://
 
+Works as ``normal://``, but this one, instead of showing the web, shows the **source code**. To indicate which language you want to read, simply add ?< language > to the url:
+``source://status.pml?pml``
+``source://status.pml?pss``
+``source://status.pml?active``
+``source://status.pml?ppp``
 
+Every url will show the corresponding language source code.
 
