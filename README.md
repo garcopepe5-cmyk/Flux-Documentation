@@ -344,3 +344,19 @@ Works as ``normal://``, but this one, instead of showing the web, shows the **so
 
 Every url will show the corresponding language source code.
 
+# DevTools
+Access the internal tools to debug and optimize your PML websites.
+
+## Inspect
+- **Code Viewer:** See the live PML, PSS, and Active code of the current page.
+- **Active Console:** Execute Active commands in real-time to test interactivity.
+
+## Origin
+- **PTE Debugger:** View the raw data being sent to the Pen Extension Engine. Essential for fixing layout and rendering issues.
+
+## Network Tracker (Coming Soon)
+- **Request Monitoring:** Track every request made via PPP or web_load.
+- **Timelines:** Visualize how long each resource takes to load.
+- **Payload Inspection:** Check exactly what data you are sending and receiving.
+
+
